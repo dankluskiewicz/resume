@@ -1,0 +1,159 @@
+\documentclass[10pt]{article} %Sets the default text size to 11pt and class to article.
+%------------------------Dimensions--------------------------------------------
+
+\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headsep=0pt %Increase to increase white space in between headers and the top of the page
+\textheight=9.0in %How tall the text body is allowed to be on each page
+\usepackage{shading}
+\usepackage[colorlinks=true, urlcolor={blue}]{hyperref}
+\usepackage{tcolorbox}
+\usepackage[top=.5in, bottom=.5in, left=.8in, right=.8in]{geometry}
+\usepackage{enumitem}
+\setlist{nosep}
+
+\tcbset{
+    frame code={}
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!40,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=5pt,
+    arc=0pt,outer arc=0pt,
+    }
+
+\begin{document}
+\pagenumbering{gobble}
+%These two pieces of code tell LaTeX that everything that goes in between these tags is what you want displayed as your actual document.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\centerline{{\Huge \sc Dan Kluskiewicz}}  %Makes whatever text you put in parenthesis move to the center
+%Prevents the following text from being indented
+%This is the same as a return in Latex
+\centerline{Index, WA \textbullet \hspace{5pt} (215) 421-9496}
+\centerline{\href{mailto:dklus@uw.edu}{dklus@uw.edu} 
+\textbullet \hspace{5pt}  \url{www.linkedin.com/in/dkluskiewicz}
+\textbullet \hspace{5pt}  \url{www.dankluskiewicz.com}
+}
+
+\noindent
+%\textbf{Objective:} I would like a field-work intensive job in geophysics.
+
+\vspace{-2mm}
+\noindent
+\line(1,0){497}\\
+\vspace{-3.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tcolorbox}
+\noindent \centerline{\large \bf University of Washington \hfill 2015} \\
+\textbf{M.S. in Geophysics} \hfill GPA: 3.94 \\
+{\normalsize \hfill NSF Graduate Research Fellowship}
+\end{tcolorbox}
+\vspace{-1.5mm}
+
+\vspace{-1mm}
+\begin{tcolorbox}
+\noindent \centerline{\large \bf Pennsylvania State University, Schreyer Honors College \hfill 2010}
+\textbf{B.S. in Physics and Mathematics}\hfill GPA: 3.99\\
+{\normalsize \hfill Highest Distinction, Class rank \textbf{1} out of \textbf{519} (College of Science)}
+\end{tcolorbox}
+\vspace{-1.5mm}
+
+
+\vspace{-2.5mm}
+\noindent
+\line(1,0){497}\\
+\vspace{-3.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills
+
+\noindent
+
+\noindent {\bf Languages:}
+ Python (incl. Numpy, Matplotlib, Pandas, GeoPandas, and Scikit-Learn), \LaTeX, (some R and Matlab)
+
+\noindent {\bf Skills:}
+Research, Data Wrangling, Mathematical Modeling, Problem Solving, Probability \& Statistics, Machine Learning, Technical Writing, Data Visualization, Linear Algebra,
+GIS, Numerical Methods for Differential Equations, Signal Processing, Teaching
+
+
+\noindent {\bf Tools:}
+Git, AWS Cloud Computing, MS Word, Excel, Powerpoint, Linux, OSX, Windows
+
+
+\vspace{-2mm}
+\noindent
+\line(1,0){497}\\
+\vspace{-3.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Jobs
+\noindent {\Large \bf Work Experience}
+
+\begin{small}
+
+\noindent
+\textbf{Northwest Management, Inc} ---  Moscow, ID (working in Index, WA) \hfill \textbf{September, 2018 - Present}$\,$
+
+\noindent
+\,\,
+\textbf{\textit{Geospatial Programmer}} 
+
+\noindent
+Led research and development for a statistical model that predicts individual-tree forest inventory from a combination of field samples and aerial imagery and Lidar. 
+
+\begin{itemize}[leftmargin = .35in,     noitemsep]
+\item Designed and programmed a modeling workflow that organizes terabytes of remote sensing data, performs efficient
+model experiments in the vicinity of our training (field sample) data, evaluates the performance of an optimized model,
+and then implements the optimized model across a project. 
+\item Delivered forest inventories and documentation (including validation statistics) for multiple large projects while
+continuing to refine all components of our modeling workflow. 
+\item Collaborated with foresters and biometricians to design efficient field sampling protocols 
+\item Presented our inventory products and validation data to clients, as well as at multiple conferences domestic and abroad.
+\end{itemize}
+
+\vspace{1mm}
+\noindent
+\textbf{Talus Analytics} --- Boulder, CO  \hfill \textbf{June,  2016 - April, 2018}
+
+\noindent
+\,\,
+\textbf{\textit{Quantitative Researcher}}  \hfill October,  2017 - April, 2018$\,$
+
+\noindent
+\,\,
+\textbf{\textit{Junior Quantitative Researcher}} \hfill June, 2016 - September, 2017$\,$
+
+\begin{itemize}[leftmargin = .35in, 	noitemsep]
+\item Developed predictive models for flooding and wildfire spread
+\begin{itemize}[leftmargin = .3in, 	noitemsep]
+\item Researched existing methods and theory
+\item Proposed a novel geometric method for probabilistic flood-hazard assessment, and led a collaborative effort to implement it in Python.
+\item Implemented a simplified version of an existing static fire model (coded from scratch), and extended it to include time-dependent predictions
+\end{itemize}
+\item Developed and implemented a wildfire accumulation model that delineates geographic areas based on wildfire hazards and predicts probable maximum losses within them
+\item Wrote the methods section for a FEMA publication on rapid flood modeling
+\item Wrote and extensively edited company reports on flood modeling and resilience investments
+\end{itemize}
+
+\vspace{-2mm}
+\noindent
+\line(1,0){497}\\
+\vspace{-4mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% activities
+\noindent {\Large \bf Publications}
+\begin{itemize}
+\item Kluskiewicz, Dan and others. (2017). Sonic methods for measuring crystal orientation fabric in ice, and results from the West Antarctic ice sheet (WAIS) Divide. Journal of Glaciology. 63. 1-15. 10.1017/jog.2017.20. 
+\item Longenecker, Herbert and others. (2019). A Rapid Flood Risk Assessment Method for Response Operations and Non‐subject‐matter‐expert Community Planning. Journal of Flood Risk Management. 13. 10.1111/jfr3.12579. 
+\end{itemize}
+
+\end{small}
+\end{document}
