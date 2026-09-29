@@ -1,0 +1,139 @@
+\documentclass[10pt]{article}
+%------------------------Dimensions--------------------------------------------
+
+\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headsep=0pt %Increase to increase white space in between headers and the top of the page
+\textheight=9.0in %How tall the text body is allowed to be on each page
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[colorlinks=true, urlcolor={blue}]{hyperref}
+\urlstyle{same}
+\usepackage[top=.5in, bottom=.5in, left=.8in, right=.8in]{geometry}
+\usepackage{enumitem}
+\setlist{itemsep=2pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+
+\begin{document}
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\centerline{{\Huge \sc Dan Kluskiewicz}}  %Makes whatever text you put in parenthesis move to the center
+%Prevents the following text from being indented
+%This is the same as a return in Latex
+\centerline{Index, WA \textbullet \hspace{5pt} (215) 421-9496}
+\centerline{\href{mailto:dankluskiewicz@gmail.com}{dankluskiewicz@gmail.com} 
+\textbullet \hspace{5pt}  \url{https://github.com/dankluskiewicz}
+}
+
+\noindent
+%\textbf{Objective:} I would like a field-work intensive job in geophysics.
+
+\vspace{1.5mm}
+\noindent
+\rule{\textwidth}{0.4pt}\\
+\vspace{1.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Summary
+
+\noindent {\Large \bf Summary}
+
+\noindent Applied researcher with a geophysics background, building Python packages and statistical models for large remote-sensing and natural-hazard problems: individual-tree forest inventory from imagery, LiDAR, and field data, and probabilistic models of flood hazard and wildfire.
+
+\vspace{1.5mm}
+\noindent
+\rule{\textwidth}{0.4pt}\\
+\vspace{1.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills
+\noindent {\Large \bf Skills}
+
+\noindent {\bf Software:} Python package development; scikit-learn, NumPy, pandas, GeoPandas, rasterio, laspy, Shapely
+
+\noindent {\bf Geospatial data:} aerial imagery, LiDAR point clouds, rasters, field observations, spatial sampling
+
+\noindent {\bf Modeling:} individual-tree segmentation, classification, and regression, with uncertainty estimates
+
+\vspace{1.5mm}
+\noindent
+\rule{\textwidth}{0.4pt}\\
+\vspace{1.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Jobs
+\noindent {\Large \bf Work Experience}
+
+\noindent
+\textbf{Foresite} --- Moscow, ID (working in Index, WA) \hfill \textbf{September 2018 -- Present}
+
+\noindent
+\,\,
+\textbf{\textit{Programmer Statistician}} 
+
+\noindent
+Lead research and development for tools that predict individual-tree forest inventory from field data, aerial imagery, and LiDAR.
+
+\begin{itemize}[leftmargin = .35in]
+\item Developed a reproducible end-to-end workflow that organizes multi-terabyte remote-sensing data, incorporates field data to segment individual trees and train models that classify them and predict tree size, evaluates those models with validation statistics, and scales inference across large areas.
+\item Built the Python package that runs this workflow and co-developed the geospatial library it uses for LiDAR, rasters, and tiling, including estimation and documentation of inventory uncertainty.
+\item Worked with researchers, engineers, foresters, and biometricians to maintain this workflow and to design field-sampling protocols that balance cost, logistics, and statistical precision.
+\item Presented inventory products and validation results to clients and at conferences (domestic and international).
+\end{itemize}
+
+\vspace{2.5mm}
+\noindent
+\textbf{Talus Analytics} --- Boulder, CO \hfill \textbf{June 2016 -- April 2018}
+
+\noindent
+\,\,
+\textbf{\textit{Quantitative Researcher}}
+
+\begin{itemize}[leftmargin = .35in]
+\item Proposed a geometric method for probabilistic flood-hazard assessment and led its implementation in Python.
+\item Implemented a simplified static wildfire-spread model from scratch, then extended it to time-dependent predictions.
+\item Developed a wildfire accumulation model that delineates areas by hazard and predicts probable maximum losses within them.
+\item Wrote the methods section for a FEMA publication on rapid flood modeling.
+\end{itemize}
+
+\vspace{1.5mm}
+\noindent
+\rule{\textwidth}{0.4pt}\\
+\vspace{1.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Education
+\noindent {\Large \bf Education}
+
+\noindent
+\textbf{University of Washington} \hfill \textbf{2015}
+
+\noindent
+\textbf{M.S. in Geophysics} \hfill GPA: 3.94
+
+\noindent
+\hfill NSF Graduate Research Fellowship
+
+\vspace{1mm}
+\noindent
+\textbf{Pennsylvania State University, Schreyer Honors College} \hfill \textbf{2010}
+
+\noindent
+\textbf{B.S. in Physics and Mathematics} \hfill GPA: 3.99
+
+\noindent
+\hfill Highest Distinction, Class rank \textbf{1} out of \textbf{519} (College of Science)
+
+\vspace{1.5mm}
+\noindent
+\rule{\textwidth}{0.4pt}\\
+\vspace{1.5mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Publications
+\noindent {\Large \bf Publications}
+\begin{itemize}
+\item Kluskiewicz, Dan and others. (2017). Sonic methods for measuring crystal orientation fabric in ice, and results from the West Antarctic ice sheet (WAIS) Divide. \textit{Journal of Glaciology}. 63. 1--15. \href{https://doi.org/10.1017/jog.2017.20}{doi:10.1017/jog.2017.20}.
+\end{itemize}
+
+\end{document}
