@@ -49,11 +49,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills
 \noindent {\Large \bf Skills}
 
-\noindent {\bf Software:} Python package development, reproducible workflows, large-scale data processing, model training and validation
+\noindent {\bf Software:} Python package development; scikit-learn, NumPy, pandas, GeoPandas, rasterio, laspy, Shapely
 
-\noindent {\bf Geospatial data:} aerial imagery, LiDAR, field observations, spatial sampling
+\noindent {\bf Geospatial data:} aerial imagery, LiDAR point clouds, rasters, field observations, spatial sampling
 
-\noindent {\bf Modeling:} object detection, classification, regression, and uncertainty estimation
+\noindent {\bf Modeling:} individual-tree segmentation, classification, and regression, with uncertainty estimates
 
 \vspace{1.5mm}
 \noindent
@@ -72,11 +72,11 @@
 \textbf{\textit{Programmer Statistician}} 
 
 \noindent
-Lead research and development for tools that predict individual-tree forest inventory from field data, aerial imagery, and LiDAR, and that report validation statistics and uncertainty with the inventory.
+Lead research and development for tools that predict individual-tree forest inventory from field data, aerial imagery, and LiDAR.
 
 \begin{itemize}[leftmargin = .35in]
-\item Developed a reproducible end-to-end workflow that organizes multi-terabyte remote-sensing data, incorporates field data to train models that detect and classify trees, evaluates models with validation statistics, and scales inference across large areas.
-\item Built Python packages to support and implement this workflow, and to estimate and document uncertainty in our inventories.
+\item Developed a reproducible end-to-end workflow that organizes multi-terabyte remote-sensing data, incorporates field data to segment individual trees and train models that classify them and predict tree size, evaluates those models with validation statistics, and scales inference across large areas.
+\item Built the Python package that runs this workflow and co-developed the geospatial library it uses for LiDAR, rasters, and tiling, including estimation and documentation of inventory uncertainty.
 \item Worked with researchers, engineers, foresters, and biometricians to maintain this workflow and to design field-sampling protocols that balance cost, logistics, and statistical precision.
 \item Presented inventory products and validation results to clients and at conferences (domestic and international).
 \end{itemize}
